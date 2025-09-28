@@ -17,5 +17,4 @@ def fizzbuzz(n):
 if __name__ == "__main__":
     if len(sys.argv) != 2 or not sys.argv[1].isdigit():
         sys.exit(1)
-    n = int(sys.argv[1])
-    fizzbuzz(n)
+    fizzbuzz(int(sys.argv[1]))
